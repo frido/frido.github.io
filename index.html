@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta name="generator" content="Hugo 0.45" />
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>mvnRepo</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="http://example.org/css/styles.css">
+  
+  <link href="http://example.org/index.xml" rel="alternate" type="application/rss+xml" title="mvnRepo" />
+
+</head>
+<body>
+
+<div class="sidebar sidebar-">
+    <div class="navigation">
+        <div>
+    Frido
+</div>
+
+        <h1 class="site-title"><a href="http://example.org/">mvnRepo</a></h1>
+
+
+        <nav class="internal">
+            <ul>
+    
+        
+            
+    <li>
+        <a href="#about">About</a>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#indexer">Indexer</a>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#backend">Backend</a>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#frontend">Frontend</a>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#overview">Overview</a>
+    </li>
+
+
+
+        
+    
+</ul>
+
+        </nav>
+
+        <nav class="external">
+            <div class="external-title"></div>
+            
+        </nav>
+    </div>
+
+    <div class="version">
+            generated on Aug 17, 2018
+    </div>
+</div>
+
+<div class="content">
+    
+        
+            
+    <section class="page" id="about">
+    <h1>
+        <a href="#about">About</a>
+    </h1>
+    <div class="content">
+        
+
+<p>This is a showcase of a web application for a startup company. Here you can find inspiration and comparison of the newest technologies, libraries and tools.
+The Showcase demonstrates also the entire development process with code-quality checks, continuous integration and devops configuration.
+The showcase demonstrates that startup can exists for free, because every tool used in here has a free pricing policy.</p>
+
+<h3 id="architecture">Architecture</h3>
+
+<p><strong>mvnRepo</strong> searches for the latest versions of your Java dependencies, checks the activity and popularity of the libraries and much more.</p>
+
+<p>The <strong>mvnRepo</strong> application allows you to easily search for information about Java libraries.
+It collects the pom files from the maven central repository and extracts relevant data.
+For libraries hosted in the GitHub repo, it gathers also information from GitHub.</p>
+
+<p><strong>mvnRepo</strong> comprises three applications. Each application was developed in different technologies.</p>
+
+<ul>
+<li><strong>Indexer</strong>: coded in <code>Java8</code> in <code>Visual Studio Code</code></li>
+<li><strong>Backend</strong>: coded in <code>Kotlin</code> in <code>InteliJ</code></li>
+<li><strong>Frontend</strong>: coded in <code>Angular5</code> in <code>Visual Studio Code</code></li>
+</ul>
+
+<h3 id="environment">Environment</h3>
+
+<p>This document was written in <code>Typora</code>.</p>
+
+<p>Tasks are managed by <del><code>Trello</code></del> <code>Visual Studio Team Service</code>.
+Technologies are listed in <code>Stackshare</code> <a href="https://stackshare.io/frido/mvnrepo"><img src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="StackShare" /></a>.</p>
+
+<p>I work on my Windows 10 machine.
+I use <code>Git</code> with <del><code>SourceTree</code></del> <code>GitKraken</code> as a graphical user interface.
+Just for fun I monitor my development time on <code>Wakatime</code>.
+I like <code>hyper.js</code>.</p>
+
+    </div>
+</section>
+
+
+
+
+        
+            
+    <section class="page" id="indexer">
+    <h1>
+        <a href="#indexer">Indexer</a>
+    </h1>
+    <div class="content">
+        
+
+<p>Indexer analyzes <code>pom.xml</code> files found in the maven repo. The Github API is used to gather additional data via the <code>GraphQL</code> data query language. The collected data are saved to a <code>Mongo</code> database hosted on <code>mLab</code>.</p>
+
+<h3 id="development">Development</h3>
+
+<p>The project is hosted on <a href="https://bitbucket.org/frido/mvnrepo-indexer/"><code>Bitbucket</code></a>. <del><code>IntelliJ</code></del> <del><code>Eclipse Oxygen</code></del> <code>Visual Studio Code</code> was used as IDE. Indexer is written in <code>Java10</code> and built with <del><code>Ant</code></del> <del><code>Maven</code></del> <code>Gradle</code>. Sometimes I use <code>Cloud9</code> or <code>Codenvy</code> virtual machine for small updates.</p>
+
+<h4 id="libraries">Libraries</h4>
+
+<ul>
+<li><em>logging</em>: <code>slf4j</code>+<code>logback</code> vs <del><code>log4j</code></del></li>
+<li><em>http clients</em>: <code>Jersey</code> vs <code>Appache</code> vs <code>Spring</code></li>
+<li><em>json</em>: BSON</li>
+<li>xml: XML</li>
+<li><em>mongo</em>: <code>MongoDB</code> vs <del><code>Morphia</code></del> vs <del><code>Mongoose</code></del> vs <del><code>MongoJack</code></del></li>
+<li><em>testing</em>: <code>jUnit4</code> vs <del><code>jUnit5</code></del></li>
+</ul>
+
+<h3 id="test">Test</h3>
+
+<p>Result of tests is published on <a href="https://frido.github.io/mvnrepo/">GitHub Pages</a></p>
+
+<h4 id="development-tools">Development Tools</h4>
+
+<ul>
+<li><code>checkstyleMain</code></li>
+<li><code>findbugsMain</code></li>
+<li><code>pmdMain</code></li>
+<li><code>jacocoTestReport</code></li>
+<li><code>sonarqube</code></li>
+</ul>
+
+<h3 id="quality">Quality</h3>
+
+<p>To check code quality I use <code>CodeFactor</code> and <code>SonatQube</code>.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Badge</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>CodeFactor</td>
+<td><a href="https://www.codefactor.io/repository/bitbucket/frido/mvnrepo-indexer"><img src="https://www.codefactor.io/repository/bitbucket/frido/mvnrepo-indexer/badge" alt="CodeFactor" /></a></td>
+</tr>
+
+<tr>
+<td>SonarQube</td>
+<td><img src="https://sonarcloud.io/api/project_badges/measure?project=mvnrepo-indexer&amp;metric=alert_status" alt="sonarqube" /></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="documentation">Documentation</h3>
+
+<p>JavaDoc is located on <a href="https://frido.github.io/mvnrepo/">GitHub Pages</a></p>
+
+<h3 id="deployment">Deployment</h3>
+
+<p>The continuous integration is done by <code>CircleCI</code>.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Badge</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>CircleCI</td>
+<td><a href="https://circleci.com/bb/frido/mvnrepo-indexer"><img src="https://circleci.com/bb/frido/mvnrepo-indexer.svg?style=svg" alt="CircleCI" /></a></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="maitenance">Maitenance</h3>
+
+<p>TODO: Log File???</p>
+
+<h3 id="books">Books</h3>
+
+<p>Very usefull books are <em>Effective Java</em> and <em>Clean Code</em>. TODO: amazon (promoted) link</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>Everything is summarized on <code>StackShare</code>.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Badge</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>StackShare</td>
+<td><a href="https://stackshare.io/frido/mvnrepo-indexer"><img src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="StackShare" /></a></td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+</section>
+
+
+
+
+        
+            
+    <section class="page" id="backend">
+    <h1>
+        <a href="#backend">Backend</a>
+    </h1>
+    <div class="content">
+        
+
+<p>Backend reads data from <code>Mongo</code> database hosted on <code>mLab</code>.</p>
+
+<h3 id="development">Development</h3>
+
+<p>Project is hosted on <a href="https://bitbucket.org/frido/mvnrepo-backend/src/master/"><code>Bitbucket</code></a>.
+I used <code>InteliJ</code> to coding in <code>Kotlin</code> and to build with <code>Gradle</code>. Backend provides REST API what built on <code>Spring Boot</code>.
+<del>I monitor service via Actuator endpoints.</del></p>
+
+<h4 id="libraries">Libraries</h4>
+
+<ul>
+<li><code>spring boot</code></li>
+<li><code>swagger2</code></li>
+<li><em>json</em>: <code>Jackson</code></li>
+<li><em>mongo</em>: <code>MongoDB</code> vs <del><code>Morphia</code></del> vs <del><code>Mongoose</code></del> vs <del><code>MongoJack</code></del></li>
+</ul>
+
+<p><em>NOTE</em>: <code>JAX-RS</code> or <code>Jersey</code> are alternatives for <code>Spring-Web</code>. But why use something different when you already have Spring in your classpath.</p>
+
+<h3 id="tests">Tests</h3>
+
+<h3 id="quality">Quality</h3>
+
+<h3 id="documentation">Documentation</h3>
+
+<p>You can try REST via <a href="https://mvnrepo-backend.herokuapp.com/swagger-ui.html"><code>Swagger</code></a>.</p>
+
+<h3 id="deployment">Deployment</h3>
+
+<p><code>Bitbucket</code> provides <a href="https://bitbucket.org/frido/mvnrepo-backend/addon/pipelines/home#!/"><code>Pipelines</code></a> as a tool for CI.
+<code>Buddy</code> pipeline is triggered on git push action and it deploys the application.</p>
+
+<p>Application is deployed on <a href="https://mvnrepo-backend.herokuapp.com/"><code>Heroku</code></a></p>
+
+<p><em>NOTE</em>: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured <code>Buddy</code> pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Badge</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Buddy</td>
+<td><a href="https://app.buddy.works/fridrichpeter/mvnrepo-backend/pipelines/pipeline/128730"><img src="https://app.buddy.works/fridrichpeter/mvnrepo-backend/pipelines/pipeline/128730/badge.svg?token=7e655371adbe49225d540916417d681bfffc656638c4af50ee9f6b6c2e1801bd" alt="buddy pipeline" title="buddy pipeline" /></a></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="maitenance">Maitenance</h3>
+
+<p>It is hard to check logs directly on Heroku, so <code>LogEntries</code> integration was implemented.</p>
+
+<h3 id="books">Books</h3>
+
+<p>I recomend to reading the book <em>Spring Boot in Action</em>.</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>For more info see <code>StackShare</code></p>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Badge</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>StackShare</td>
+<td><a href="https://stackshare.io/frido/mvnrepo-backend"><img src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="StackShare" /></a></td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+</section>
+
+
+
+
+        
+            
+    <section class="page" id="frontend">
+    <h1>
+        <a href="#frontend">Frontend</a>
+    </h1>
+    <div class="content">
+        
+
+<p>Frontend is <code>Angular5</code> application written in <code>Typescript</code> language.</p>
+
+<h3 id="development">Development</h3>
+
+<p>Project is hosted on <a href="https://pfrido.visualstudio.com/mvnrepo/mvnrepo Team/"><code>Visual Studio Team Services</code></a> just to try somethink new.
+My favourite editor for <code>Typescript</code> is <del><code>Atom</code></del> <code>Visual Studio Code</code>.
+<code>Boostrap4</code> was used for page teplates generated by <code>Sass</code>.</p>
+
+<h4 id="dependencies">Dependencies</h4>
+
+<ul>
+<li><code>angular/cli</code></li>
+<li><code>Boostrap4</code> vs <del><code>Semantic UI</code></del> vs many many more</li>
+</ul>
+
+<h3 id="tests">Tests</h3>
+
+<h3 id="quality">Quality</h3>
+
+<h3 id="documentation">Documentation</h3>
+
+<h3 id="deployment">Deployment</h3>
+
+<p>Applicatio is deployed on <a href="https://mvnrepo.bitbucket.io">Bitbuket Pages</a></p>
+
+<h3 id="maitenance">Maitenance</h3>
+
+<h3 id="books">Books</h3>
+
+<p>The best book about angular is the book <em>Angular Ninja</em>.</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>Find more on <code>StackShare</code>.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Bange</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>StackShare</td>
+<td><a href="https://stackshare.io/frido/mvnrepo-frontend"><img src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="StackShare" /></a></td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+</section>
+
+
+
+
+        
+            
+    <section class="page" id="overview">
+    <h1>
+        <a href="#overview">Overview</a>
+    </h1>
+    <div class="content">
+        
+
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Repository</th>
+<th>Deployed</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Indexer</td>
+<td><a href="https://bitbucket.org/frido/mvnrepo-indexer">bitbucket</a></td>
+<td>N/A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Backend</td>
+<td><a href="https://bitbucket.org/frido/mvnrepo-backend">bitbucket</a></td>
+<td><a href="https://mvnrepo-backend.herokuapp.com/">Heroku</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Frontend</td>
+<td>visualstudio</td>
+<td><a href="https://mvnrepo.bitbucket.io/">bitbucket</a></td>
+<td><a href="https://frido.github.io/">GitHub Pages</a></td>
+</tr>
+
+<tr>
+<td>Blog</td>
+<td><a href="https://github.com/frido/frido.github.io">github</a></td>
+<td><a href="https://frido.github.io/">github</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>About</td>
+<td><a href="https://github.com/frido/mvnrepo">github</a></td>
+<td><a href="https://github.com/frido/mvnrepo/blob/master/README.md">github</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="utils-helpers">Utils/Helpers</h2>
+
+<ul>
+<li><a href="https://coolors.co/">coolors</a></li>
+<li><a href="https://any-api.com/">any-api</a></li>
+<li><a href="https://app.codeship.com/projects/214418">codeship</a></li>
+<li><a href="https://sourcegraph.com/?ref=stackshare">sourcegraph</a></li>
+<li><a href="http://codepen.io/nashvail/pen/VKkXLB">codepen</a></li>
+</ul>
+
+    </div>
+</section>
+
+
+
+
+        
+    
+</div>
+</body>
+</html>
+
