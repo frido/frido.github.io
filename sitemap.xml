@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://frido.github.io/about/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/indexer/</loc>
+    <loc>https://frido.github.io/indexer/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/backend/</loc>
+    <loc>https://frido.github.io/backend/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/frontend/</loc>
+    <loc>https://frido.github.io/frontend/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/overview/</loc>
+    <loc>https://frido.github.io/overview/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://frido.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://frido.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://frido.github.io/</loc>
     <priority>0</priority>
   </url>
   
