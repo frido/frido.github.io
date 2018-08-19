@@ -28,12 +28,12 @@ Result of tests is published on `GitHub Pages` in `docs` folder.
 
 | Tool | Reports |
 | --- | ---|
-| JUnit | https://frido.github.io/mvnrepo-indexer/junit/ |
-| CheckStyle | https://frido.github.io/mvnrepo-indexer/checkstyle/main.html |
-| FindBugs | https://frido.github.io/mvnrepo-indexer/findbugs/ |
-| PMD | https://frido.github.io/mvnrepo-indexer/pmd/ |
-| JaCoCo | https://frido.github.io/mvnrepo-indexer/jacoco/test/html/ |
-| SonarCloud | https://sonarcloud.io/organizations/frido-bitbucket/projects |
+| JUnit | [Reports](https://frido.github.io/mvnrepo-indexer/junit/) |
+| CheckStyle | [Reports](https://frido.github.io/mvnrepo-indexer/checkstyle/main.html) |
+| FindBugs | [Reports](https://frido.github.io/mvnrepo-indexer/findbugs/) |
+| PMD | [Reports](https://frido.github.io/mvnrepo-indexer/pmd/) |
+| JaCoCo | [Reports](https://frido.github.io/mvnrepo-indexer/jacoco/test/html/) |
+| SonarCloud | [Reports](https://sonarcloud.io/organizations/frido-bitbucket/projects) |
 
 ### Quality
 
