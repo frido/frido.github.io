@@ -22,15 +22,18 @@ The project is hosted on [`Bitbucket`](https://bitbucket.org/frido/mvnrepo-index
 
 ### Test
 
-Result of tests is published on [GitHub Pages](https://frido.github.io/mvnrepo/)
+Result of tests is published on `GitHub Pages` in `docs` folder.
 
-#### Development Tools
+#### Test Tools
 
-* `checkstyleMain`
-* `findbugsMain`
-* `pmdMain`
-* `jacocoTestReport`
-* `sonarqube`
+| Tool | Reports |
+| --- | ---|
+| JUnit | https://frido.github.io/mvnrepo-indexer/junit/ |
+| CheckStyle | https://frido.github.io/mvnrepo-indexer/checkstyle/main.html |
+| FindBugs | https://frido.github.io/mvnrepo-indexer/findbugs/ |
+| PMD | https://frido.github.io/mvnrepo-indexer/pmd/ |
+| JaCoCo | https://frido.github.io/mvnrepo-indexer/jacoco/test/html/ |
+| SonarCloud | https://sonarcloud.io/organizations/frido-bitbucket/projects |
 
 ### Quality
 
