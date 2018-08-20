@@ -24,8 +24,6 @@ The project is hosted on [`Bitbucket`](https://bitbucket.org/frido/mvnrepo-index
 
 Result of tests is published on `GitHub Pages` in `docs` folder.
 
-#### Test Tools
-
 | Tool | Reports |
 | --- | ---|
 | JUnit4 | [Reports](https://frido.github.io/mvnrepo-indexer/junit/) |
@@ -44,15 +42,15 @@ Result of tests is published on `GitHub Pages` in `docs` folder.
 
 ### Documentation
 
-JavaDoc is located on [GitHub Pages](https://frido.github.io/mvnrepo-indexer/)
+JavaDoc is located on [GitHub Pages](https://frido.github.io/mvnrepo-indexer/javadoc/)
 
 ### Deployment
 
-The continuous integration is done by `CircleCI`.
+The continuous integration is done by ~~`CircleCI`~~ `Buddy`.
 
 | Tool | Badge |
 | --- | --- |
-| CircleCI | [![CircleCI](https://circleci.com/bb/frido/mvnrepo-indexer.svg?style=svg)](https://circleci.com/bb/frido/mvnrepo-indexer) |
+| Buddy | [![buddy pipeline](https://app.buddy.works/fridrichpeter/mvnrepo-indexer-1/pipelines/pipeline/148732/badge.svg?token=7e655371adbe49225d540916417d681bfffc656638c4af50ee9f6b6c2e1801bd "buddy pipeline")](https://app.buddy.works/fridrichpeter/mvnrepo-indexer-1/pipelines/pipeline/148732) |
 
 ### Maitenance
 
