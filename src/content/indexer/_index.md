@@ -28,25 +28,23 @@ Result of tests is published on `GitHub Pages` in `docs` folder.
 
 | Tool | Reports |
 | --- | ---|
-| JUnit | [Reports](https://frido.github.io/mvnrepo-indexer/junit/) |
+| JUnit4 | [Reports](https://frido.github.io/mvnrepo-indexer/junit/) |
+
+### Quality
+
+| Tool | Badge |
+| --- | --- |
 | CheckStyle | [Reports](https://frido.github.io/mvnrepo-indexer/checkstyle/main.html) |
 | FindBugs | [Reports](https://frido.github.io/mvnrepo-indexer/findbugs/) |
 | PMD | [Reports](https://frido.github.io/mvnrepo-indexer/pmd/) |
 | JaCoCo | [Reports](https://frido.github.io/mvnrepo-indexer/jacoco/test/html/) |
-| SonarCloud | [Reports](https://sonarcloud.io/organizations/frido-bitbucket/projects) |
-
-### Quality
-
-To check code quality I use `CodeFactor` and `SonatQube`.
-
-| Tool | Badge |
-| --- | --- |
 | CodeFactor | [![CodeFactor](https://www.codefactor.io/repository/bitbucket/frido/mvnrepo-indexer/badge)](https://www.codefactor.io/repository/bitbucket/frido/mvnrepo-indexer) |
-| SonarQube | ![sonarqube](https://sonarcloud.io/api/project_badges/measure?project=mvnrepo-indexer&metric=alert_status) |
+| SonarCloud | ![sonarqube](https://sonarcloud.io/api/project_badges/measure?project=mvnrepo-indexer&metric=alert_status) |
+| Codacy | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f32f5fe80218464a935fce3b231806af)](https://www.codacy.com/project/frido/mvnrepo-indexer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=frido/mvnrepo-indexer&amp;utm_campaign=Badge_Grade_Dashboard) |
 
 ### Documentation
 
-JavaDoc is located on [GitHub Pages](https://frido.github.io/mvnrepo/)
+JavaDoc is located on [GitHub Pages](https://frido.github.io/mvnrepo-indexer/)
 
 ### Deployment
 
