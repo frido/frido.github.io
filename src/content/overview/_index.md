@@ -5,13 +5,21 @@ anchor: "overview"
 weight: 50
 ---
 
-| Project  | Repository                               | Deployed                                 |                                          |
-| -------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Indexer  | [bitbucket](https://bitbucket.org/frido/mvnrepo-indexer) | N/A                                      |                                          |
-| Backend  | [bitbucket](https://bitbucket.org/frido/mvnrepo-backend) | [Heroku](https://mvnrepo-backend.herokuapp.com/) |                                          |
-| Frontend | visualstudio                             | [bitbucket](https://mvnrepo.bitbucket.io/) | [GitHub Pages](https://frido.github.io/) |
-| Blog     | [github](https://github.com/frido/frido.github.io) | [github](https://frido.github.io/)       |                                          |
-| About    | [github](https://github.com/frido/mvnrepo) | [github](https://github.com/frido/mvnrepo/blob/master/README.md) |                                          |
+|  | Indexer (Java) | Backend (Kotlin) | Frontend (Angular) |
+| ----- | -------------- | ---------------- | ------------------ |
+| Repo | [GitHub](https://github.com/frido/mvnrepo-indexer) | bbb | ccc |
+| IDE | Visual Studio Code  | InteliJ | Visual Studio Code |
+| Build | Gradle | Spring Boot | angular-cli |
+| Test | JUnit, FindBugs, PMD, JaCoCo |  |  |
+| Quality | CheckStyle, CodeFactor, SonarQube |  |  |
+| Deployment | CircleCI |  |  |
+| Doc | JavaDoc  |  |  |
+| Deployed | N/A | [Heroku](https://mvnrepo-backend.herokuapp.com/) | [GitHub Pages](https://frido.github.io/) |
+
+
+| Project  | Repository                               | Deployed                                 |                                          
+| -------- | ---------------------------------------- | ---------------------------------------- | 
+| About    | [GitHub](https://github.com/frido/frido.github.io) | [Frido](https://frido.github.io/) | 
 
 ## Utils/Helpers
 
