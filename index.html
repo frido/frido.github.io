@@ -82,7 +82,7 @@
     </div>
 
     <div class="version">
-            generated on Aug 19, 2018
+            generated on Aug 20, 2018
     </div>
 </div>
 
@@ -154,7 +154,7 @@ I like <code>hyper.js</code>.</p>
 
 <ul>
 <li><em>logging</em>: <code>slf4j</code>+<code>logback</code> vs <del><code>log4j</code></del></li>
-<li><em>http clients</em>: <code>Jersey</code> vs <code>Appache</code> vs <code>Spring</code></li>
+<li><em>http clients</em>: <code>Jersey</code> vs <del><code>Appache</code></del> vs <del><code>Spring</code></del></li>
 <li><em>json</em>: BSON</li>
 <li>xml: XML</li>
 <li><em>mongo</em>: <code>MongoDB</code> vs <del><code>Morphia</code></del> vs <del><code>Mongoose</code></del> vs <del><code>MongoJack</code></del></li>
@@ -177,10 +177,23 @@ I like <code>hyper.js</code>.</p>
 
 <tbody>
 <tr>
-<td>JUnit</td>
+<td>JUnit4</td>
 <td><a href="https://frido.github.io/mvnrepo-indexer/junit/">Reports</a></td>
 </tr>
+</tbody>
+</table>
 
+<h3 id="quality">Quality</h3>
+
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Badge</th>
+</tr>
+</thead>
+
+<tbody>
 <tr>
 <td>CheckStyle</td>
 <td><a href="https://frido.github.io/mvnrepo-indexer/checkstyle/main.html">Reports</a></td>
@@ -202,40 +215,25 @@ I like <code>hyper.js</code>.</p>
 </tr>
 
 <tr>
-<td>SonarCloud</td>
-<td><a href="https://sonarcloud.io/organizations/frido-bitbucket/projects">Reports</a></td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="quality">Quality</h3>
-
-<p>To check code quality I use <code>CodeFactor</code> and <code>SonatQube</code>.</p>
-
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Badge</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
 <td>CodeFactor</td>
 <td><a href="https://www.codefactor.io/repository/bitbucket/frido/mvnrepo-indexer"><img src="https://www.codefactor.io/repository/bitbucket/frido/mvnrepo-indexer/badge" alt="CodeFactor" /></a></td>
 </tr>
 
 <tr>
-<td>SonarQube</td>
+<td>SonarCloud</td>
 <td><img src="https://sonarcloud.io/api/project_badges/measure?project=mvnrepo-indexer&amp;metric=alert_status" alt="sonarqube" /></td>
+</tr>
+
+<tr>
+<td>Codacy</td>
+<td><a href="https://www.codacy.com/project/frido/mvnrepo-indexer/dashboard?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=frido/mvnrepo-indexer&amp;amp;utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/f32f5fe80218464a935fce3b231806af" alt="Codacy Badge" /></a></td>
 </tr>
 </tbody>
 </table>
 
 <h3 id="documentation">Documentation</h3>
 
-<p>JavaDoc is located on <a href="https://frido.github.io/mvnrepo/">GitHub Pages</a></p>
+<p>JavaDoc is located on <a href="https://frido.github.io/mvnrepo-indexer/">GitHub Pages</a></p>
 
 <h3 id="deployment">Deployment</h3>
 
@@ -317,15 +315,17 @@ I used <code>InteliJ</code> to coding in <code>Kotlin</code> and to build with <
 <li><em>mongo</em>: <code>MongoDB</code> vs <del><code>Morphia</code></del> vs <del><code>Mongoose</code></del> vs <del><code>MongoJack</code></del></li>
 </ul>
 
-<p><em>NOTE</em>: <code>JAX-RS</code> or <code>Jersey</code> are alternatives for <code>Spring-Web</code>. But why use something different when you already have Spring in your classpath.</p>
+<p><em>NOTE</em>: <code>JAX-RS</code> or <code>Jersey</code> are alternatives for <code>Spring-Web</code>. But why use something else when you already have Spring in your classpath.</p>
 
 <h3 id="tests">Tests</h3>
+
+<p>TODO: JUnit5 for example</p>
 
 <h3 id="quality">Quality</h3>
 
 <h3 id="documentation">Documentation</h3>
 
-<p>You can try REST via <a href="https://mvnrepo-backend.herokuapp.com/swagger-ui.html"><code>Swagger</code></a>.</p>
+<p>TODO: <a href="https://github.com/Kotlin/dokka">https://github.com/Kotlin/dokka</a></p>
 
 <h3 id="deployment">Deployment</h3>
 
@@ -333,6 +333,8 @@ I used <code>InteliJ</code> to coding in <code>Kotlin</code> and to build with <
 <code>Buddy</code> pipeline is triggered on git push action and it deploys the application.</p>
 
 <p>Application is deployed on <a href="https://mvnrepo-backend.herokuapp.com/"><code>Heroku</code></a></p>
+
+<p>You can try REST via <a href="https://mvnrepo-backend.herokuapp.com/swagger-ui.html"><code>Swagger</code></a>.</p>
 
 <p><em>NOTE</em>: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured <code>Buddy</code> pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.</p>
 
@@ -464,50 +466,75 @@ My favourite editor for <code>Typescript</code> is <del><code>Atom</code></del> 
 <table>
 <thead>
 <tr>
-<th>Project</th>
-<th>Repository</th>
-<th>Deployed</th>
 <th></th>
+<th>Indexer (Java)</th>
+<th>Backend (Kotlin)</th>
+<th>Frontend (Angular)</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>Indexer</td>
-<td><a href="https://bitbucket.org/frido/mvnrepo-indexer">bitbucket</a></td>
+<td>Repo</td>
+<td><a href="https://github.com/frido/mvnrepo-indexer">GitHub</a></td>
+<td>bbb</td>
+<td>ccc</td>
+</tr>
+
+<tr>
+<td>IDE</td>
+<td>Visual Studio Code</td>
+<td>InteliJ</td>
+<td>Visual Studio Code</td>
+</tr>
+
+<tr>
+<td>Build</td>
+<td>Gradle</td>
+<td>Spring Boot</td>
+<td>angular-cli</td>
+</tr>
+
+<tr>
+<td>Test</td>
+<td>JUnit, FindBugs, PMD, JaCoCo</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Quality</td>
+<td>CheckStyle, CodeFactor, SonarQube</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Deployment</td>
+<td>CircleCI</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Doc</td>
+<td>JavaDoc</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Deployed</td>
 <td>N/A</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Backend</td>
-<td><a href="https://bitbucket.org/frido/mvnrepo-backend">bitbucket</a></td>
 <td><a href="https://mvnrepo-backend.herokuapp.com/">Heroku</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td>Frontend</td>
-<td>visualstudio</td>
-<td><a href="https://mvnrepo.bitbucket.io/">bitbucket</a></td>
 <td><a href="https://frido.github.io/">GitHub Pages</a></td>
-</tr>
-
-<tr>
-<td>Blog</td>
-<td><a href="https://github.com/frido/frido.github.io">github</a></td>
-<td><a href="https://frido.github.io/">github</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td>About</td>
-<td><a href="https://github.com/frido/mvnrepo">github</a></td>
-<td><a href="https://github.com/frido/mvnrepo/blob/master/README.md">github</a></td>
-<td></td>
 </tr>
 </tbody>
 </table>
+
+<p>| Project  | Repository                               | Deployed                                 |<br />
+| &mdash;&mdash;&ndash; | &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- | &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- |
+| About    | <a href="https://github.com/frido/frido.github.io">GitHub</a> | <a href="https://frido.github.io/">Frido</a> |</p>
 
 <h2 id="utils-helpers">Utils/Helpers</h2>
 
