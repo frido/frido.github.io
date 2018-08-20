@@ -20,15 +20,17 @@ I used `InteliJ` to coding in `Kotlin` and to build with `Gradle`. Backend provi
 * *json*: `Jackson`
 * *mongo*: `MongoDB` vs ~~`Morphia`~~ vs ~~`Mongoose`~~ vs ~~`MongoJack`~~
 
-*NOTE*: `JAX-RS` or `Jersey` are alternatives for `Spring-Web`. But why use something different when you already have Spring in your classpath.
+*NOTE*: `JAX-RS` or `Jersey` are alternatives for `Spring-Web`. But why use something else when you already have Spring in your classpath.
 
 ### Tests
+
+TODO: JUnit5 for example
 
 ### Quality
 
 ### Documentation
 
-You can try REST via [`Swagger`](https://mvnrepo-backend.herokuapp.com/swagger-ui.html).
+TODO: https://github.com/Kotlin/dokka
 
 ### Deployment
 
@@ -36,6 +38,8 @@ You can try REST via [`Swagger`](https://mvnrepo-backend.herokuapp.com/swagger-u
 `Buddy` pipeline is triggered on git push action and it deploys the application.
 
 Application is deployed on [`Heroku`](https://mvnrepo-backend.herokuapp.com/)
+
+You can try REST via [`Swagger`](https://mvnrepo-backend.herokuapp.com/swagger-ui.html).
 
 *NOTE*: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured `Buddy` pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.
 

@@ -14,7 +14,7 @@ The project is hosted on [`Bitbucket`](https://bitbucket.org/frido/mvnrepo-index
 #### Libraries
 
 * *logging*: `slf4j`+`logback` vs ~~`log4j`~~
-* *http clients*: `Jersey` vs `Appache` vs `Spring`
+* *http clients*: `Jersey` vs ~~`Appache`~~ vs ~~`Spring`~~
 * *json*: BSON
 * xml: XML
 * *mongo*: `MongoDB` vs ~~`Morphia`~~ vs ~~`Mongoose`~~ vs ~~`MongoJack`~~ 
