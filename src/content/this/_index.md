@@ -1,30 +1,16 @@
 ---
-title: "Overview"
+title: "This Page"
 date: 2018-01-28T22:01:36+01:00
-anchor: "overview"
-weight: 50
+anchor: "this"
+weight: 60
 ---
 
-|  | Indexer (Java) | Backend (Kotlin) | Frontend (Angular) |
-| ----- | -------------- | ---------------- | ------------------ |
-| Repo | [GitHub](https://github.com/frido/mvnrepo-indexer) | bbb | ccc |
-| IDE | Visual Studio Code  | InteliJ | Visual Studio Code |
-| Build | Gradle | Spring Boot | angular-cli |
-| Test | JUnit, FindBugs, PMD, JaCoCo |  |  |
-| Quality | CheckStyle, CodeFactor, SonarQube |  |  |
-| Deployment | CircleCI |  |  |
-| Doc | JavaDoc  |  |  |
-| Deployed | N/A | [Heroku](https://mvnrepo-backend.herokuapp.com/) | [GitHub Pages](https://frido.github.io/) |
+This page is hosten on [GitHub](https://github.com/frido/frido.github.io).
 
+Content was written in `Markdown`. Framework [`Hugo`](https://gohugo.io/) generates static html pages that are published on [GitHub](https://frido.github.io/).
 
-| Project  | Repository                               | Deployed                                 |                                          
-| -------- | ---------------------------------------- | ---------------------------------------- | 
-| About    | [GitHub](https://github.com/frido/frido.github.io) | [Frido](https://frido.github.io/) | 
+Continues integration tool `Buddy` run `Hugo` to generate static pages. Result is pushed back to git repository
 
-## Utils/Helpers
-
-* [coolors](https://coolors.co/)
-* [any-api](https://any-api.com/)
-* [codeship](https://app.codeship.com/projects/214418)
-* [sourcegraph](https://sourcegraph.com/?ref=stackshare)
-* [codepen](http://codepen.io/nashvail/pen/VKkXLB)
+| Tool | Badge |
+| --- | --- |
+| Buddy | [![buddy pipeline](https://app.buddy.works/fridrichpeter/frido-github-io/pipelines/pipeline/148734/badge.svg?token=7e655371adbe49225d540916417d681bfffc656638c4af50ee9f6b6c2e1801bd "buddy pipeline")](https://app.buddy.works/fridrichpeter/frido-github-io/pipelines/pipeline/148734) |
