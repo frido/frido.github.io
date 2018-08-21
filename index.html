@@ -70,6 +70,14 @@
 
 
         
+            
+    <li>
+        <a href="#overview">Overview</a>
+    </li>
+
+
+
+        
     
 </ul>
 
@@ -148,7 +156,7 @@ I like <code>hyper.js</code>.</p>
 
 <h3 id="development">Development</h3>
 
-<p>The project is hosted on <a href="https://bitbucket.org/frido/mvnrepo-indexer/"><code>Bitbucket</code></a>. <del><code>IntelliJ</code></del> <del><code>Eclipse Oxygen</code></del> <code>Visual Studio Code</code> was used as IDE. Indexer is written in <code>Java10</code> and built with <del><code>Ant</code></del> <del><code>Maven</code></del> <code>Gradle</code>. Sometimes I use <code>Cloud9</code> or <code>Codenvy</code> virtual machine for small updates.</p>
+<p>The project is hosted on <a href="https://bitbucket.org/frido/mvnrepo-indexer/"><code>Bitbucket</code></a>. <del><code>IntelliJ</code></del> <code>Eclipse Photon</code> and <code>Visual Studio Code</code> was used as IDE. Indexer is written in <code>Java10</code> and built with <del><code>Ant</code></del> <del><code>Maven</code></del> <code>Gradle</code>. Sometimes I use <code>Cloud9</code> or <code>Codenvy</code> virtual machine for small updates.</p>
 
 <h4 id="libraries">Libraries</h4>
 
@@ -253,13 +261,9 @@ I like <code>hyper.js</code>.</p>
 </tbody>
 </table>
 
-<h3 id="maitenance">Maitenance</h3>
-
-<p>TODO: Log File???</p>
-
 <h3 id="books">Books</h3>
 
-<p>Very usefull books are <em>Effective Java</em> and <em>Clean Code</em>. TODO: amazon (promoted) link</p>
+<p>Very usefull books are <a href="https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997"><strong><em>Effective Java</em></strong></a> and <a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"><strong><em>Clean Code</em></strong></a>.</p>
 
 <h3 id="summary">Summary</h3>
 
@@ -296,7 +300,7 @@ I like <code>hyper.js</code>.</p>
     <div class="content">
         
 
-<p>Backend reads data from <code>Mongo</code> database hosted on <code>mLab</code>.</p>
+<p>Backend is RESTful service. It provide access to data stored in <code>Mongo</code> database hosted on <code>mLab</code>.</p>
 
 <h3 id="development">Development</h3>
 
@@ -321,6 +325,8 @@ I used <code>InteliJ</code> to coding in <code>Kotlin</code> and to build with <
 
 <h3 id="quality">Quality</h3>
 
+<p>Are there any static code analysis tools for Kotlin?</p>
+
 <h3 id="documentation">Documentation</h3>
 
 <p>TODO: <a href="https://github.com/Kotlin/dokka">https://github.com/Kotlin/dokka</a></p>
@@ -334,7 +340,7 @@ I used <code>InteliJ</code> to coding in <code>Kotlin</code> and to build with <
 
 <p>You can try REST via <a href="https://mvnrepo-backend.herokuapp.com/swagger-ui.html"><code>Swagger</code></a>.</p>
 
-<p><em>NOTE</em>: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured <code>Buddy</code> pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.</p>
+<p><em>NOTE: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured <code>Buddy</code> pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.</em></p>
 
 <table>
 <thead>
@@ -358,7 +364,7 @@ I used <code>InteliJ</code> to coding in <code>Kotlin</code> and to build with <
 
 <h3 id="books">Books</h3>
 
-<p>I recomend to reading the book <em>Spring Boot in Action</em>.</p>
+<p>I recomend to reading the book <a href="https://www.amazon.com/Spring-Boot-Action-Craig-Walls/dp/1617292540"><strong><em>Spring Boot in Action</em></strong></a>.</p>
 
 <h3 id="summary">Summary</h3>
 
@@ -445,6 +451,104 @@ My favourite editor for <code>Typescript</code> is <del><code>Atom</code></del> 
 </tr>
 </tbody>
 </table>
+
+    </div>
+</section>
+
+
+
+
+        
+            
+    <section class="page" id="overview">
+    <h1>
+        <a href="#overview">Overview</a>
+    </h1>
+    <div class="content">
+        
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Indexer (Java)</th>
+<th>Backend (Kotlin)</th>
+<th>Frontend (Angular)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Repo</td>
+<td><a href="https://github.com/frido/mvnrepo-indexer">GitHub</a></td>
+<td>bbb</td>
+<td>ccc</td>
+</tr>
+
+<tr>
+<td>IDE</td>
+<td>Visual Studio Code</td>
+<td>InteliJ</td>
+<td>Visual Studio Code</td>
+</tr>
+
+<tr>
+<td>Build</td>
+<td>Gradle</td>
+<td>Spring Boot</td>
+<td>angular-cli</td>
+</tr>
+
+<tr>
+<td>Test</td>
+<td>JUnit, FindBugs, PMD, JaCoCo</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Quality</td>
+<td>CheckStyle, CodeFactor, SonarQube</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Deployment</td>
+<td>CircleCI</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Doc</td>
+<td>JavaDoc</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Deployed</td>
+<td>N/A</td>
+<td><a href="https://mvnrepo-backend.herokuapp.com/">Heroku</a></td>
+<td><a href="https://frido.github.io/">GitHub Pages</a></td>
+</tr>
+</tbody>
+</table>
+
+<p>| Project  | Repository                               | Deployed                                 |<br />
+| &mdash;&mdash;&ndash; | &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- | &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;- |
+| About    | <a href="https://github.com/frido/frido.github.io">GitHub</a> | <a href="https://frido.github.io/">Frido</a> |</p>
+
+<h2 id="utils-helpers">Utils/Helpers</h2>
+
+<ul>
+<li><a href="https://coolors.co/">coolors</a></li>
+<li><a href="https://any-api.com/">any-api</a></li>
+<li><a href="https://app.codeship.com/projects/214418">codeship</a></li>
+<li><a href="https://sourcegraph.com/?ref=stackshare">sourcegraph</a></li>
+<li><a href="http://codepen.io/nashvail/pen/VKkXLB">codepen</a></li>
+</ul>
 
     </div>
 </section>
