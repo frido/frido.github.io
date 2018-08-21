@@ -5,7 +5,7 @@ anchor: "backend"
 weight: 30
 ---
 
-Backend reads data from `Mongo` database hosted on `mLab`.
+Backend is RESTful service. It provide access to data stored in `Mongo` database hosted on `mLab`.
 
 ### Development 
 
@@ -28,6 +28,8 @@ TODO: JUnit5 for example
 
 ### Quality
 
+Are there any static code analysis tools for Kotlin?
+
 ### Documentation
 
 TODO: https://github.com/Kotlin/dokka
@@ -41,7 +43,7 @@ Application is deployed on [`Heroku`](https://mvnrepo-backend.herokuapp.com/)
 
 You can try REST via [`Swagger`](https://mvnrepo-backend.herokuapp.com/swagger-ui.html).
 
-*NOTE*: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured `Buddy` pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.
+*NOTE: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured `Buddy` pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.*
 
 | Tool | Badge |
 | ---  | ---   |
@@ -53,7 +55,7 @@ It is hard to check logs directly on Heroku, so `LogEntries` integration was imp
 
 ### Books
 
-I recomend to reading the book *Spring Boot in Action*.
+I recomend to reading the book [***Spring Boot in Action***](https://www.amazon.com/Spring-Boot-Action-Craig-Walls/dp/1617292540).
 
 ### Summary
 

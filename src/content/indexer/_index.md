@@ -9,7 +9,7 @@ Indexer analyzes `pom.xml` files found in the maven repo. The Github API is used
 
 ### Development
 
-The project is hosted on [`Bitbucket`](https://bitbucket.org/frido/mvnrepo-indexer/). ~~`IntelliJ`~~ ~~`Eclipse Oxygen`~~ `Visual Studio Code` was used as IDE. Indexer is written in `Java10` and built with ~~`Ant`~~ ~~`Maven`~~ `Gradle`. Sometimes I use `Cloud9` or `Codenvy` virtual machine for small updates.
+The project is hosted on [`Bitbucket`](https://bitbucket.org/frido/mvnrepo-indexer/). ~~`IntelliJ`~~ `Eclipse Photon` and `Visual Studio Code` was used as IDE. Indexer is written in `Java10` and built with ~~`Ant`~~ ~~`Maven`~~ `Gradle`. Sometimes I use `Cloud9` or `Codenvy` virtual machine for small updates.
 
 #### Libraries
 
@@ -52,13 +52,9 @@ The continuous integration is done by ~~`CircleCI`~~ `Buddy`.
 | --- | --- |
 | Buddy | [![buddy pipeline](https://app.buddy.works/fridrichpeter/mvnrepo-indexer-1/pipelines/pipeline/148732/badge.svg?token=7e655371adbe49225d540916417d681bfffc656638c4af50ee9f6b6c2e1801bd "buddy pipeline")](https://app.buddy.works/fridrichpeter/mvnrepo-indexer-1/pipelines/pipeline/148732) |
 
-### Maitenance
-
-TODO: Log File???
-
 ### Books
 
-Very usefull books are *Effective Java* and *Clean Code*. TODO: amazon (promoted) link
+Very usefull books are [***Effective Java***](https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997) and [***Clean Code***](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
 
 ### Summary
 
