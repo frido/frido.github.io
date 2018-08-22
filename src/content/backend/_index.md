@@ -9,14 +9,16 @@ Backend is RESTful service. It provide access to data stored in `Mongo` database
 
 ### Development 
 
-Project is hosted on [`Bitbucket`](https://bitbucket.org/frido/mvnrepo-backend/src/master/).
-I used `InteliJ` to coding in `Kotlin` and to build with `Gradle`. Backend provides REST API what built on `Spring Boot`.
+Project is hosted on [`GitHub`](https://github.com/frido/mvnrepo-backend).
+I used `InteliJ` to coding in `Kotlin` and to build with `Gradle`. Backend provides RESTfull API that is built on `Spring Boot`.
 ~~I monitor service via Actuator endpoints.~~
 
 #### Libraries
 
-* `spring boot`
-* `swagger2`
+* `Spring Boot`
+* `Spring 5`
+* `Swagger2`
+* `Swagger2-UI`
 * *json*: `Jackson`
 * *mongo*: `MongoDB` vs ~~`Morphia`~~ vs ~~`Mongoose`~~ vs ~~`MongoJack`~~
 
@@ -36,10 +38,7 @@ TODO: https://github.com/Kotlin/dokka
 
 ### Deployment
 
-`Bitbucket` provides [`Pipelines`](https://bitbucket.org/frido/mvnrepo-backend/addon/pipelines/home#!/) as a tool for CI.
-`Buddy` pipeline is triggered on git push action and it deploys the application.
-
-Application is deployed on [`Heroku`](https://mvnrepo-backend.herokuapp.com/)
+`Buddy` pipeline is triggered on git push action and it deploys the application to [`Heroku`](https://mvnrepo-backend.herokuapp.com/)
 
 You can try REST via [`Swagger`](https://mvnrepo-backend.herokuapp.com/swagger-ui.html).
 
