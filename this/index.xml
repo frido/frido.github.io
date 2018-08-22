@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on mvnRepo</title>
+    <title>This Page on mvnRepo</title>
     <link>https://frido.github.io/this/</link>
-    <description>Recent content in Overview on mvnRepo</description>
+    <description>Recent content in This Page on mvnRepo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jan 2018 22:01:36 +0100</lastBuildDate>
