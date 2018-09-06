@@ -44,6 +44,11 @@ You can try REST via [`Swagger`](https://mvnrepo-backend.herokuapp.com/swagger-u
 
 *NOTE: Disadvantagve of free Dyno on Heroku is that it get asleep after 30 minutes of inactivity. I dont believe backend has enought traffic to be still alive. So I configured `Buddy` pipeline to make request to Backend every 15 minutes. 1000 free dynos hours per month should be enought to keep Backend alive all month.*
 
+#### Performance tests
+
+[loader.io](https://ldr.io/2wPqN8N)
+
+
 | Tool | Badge |
 | ---  | ---   |
 | Buddy | [![buddy pipeline](https://app.buddy.works/fridrichpeter/mvnrepo-backend/pipelines/pipeline/128730/badge.svg?token=7e655371adbe49225d540916417d681bfffc656638c4af50ee9f6b6c2e1801bd "buddy pipeline")](https://app.buddy.works/fridrichpeter/mvnrepo-backend/pipelines/pipeline/128730) |
