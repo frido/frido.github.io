@@ -30,6 +30,8 @@ My favourite editor for `Typescript` is ~~`Atom`~~ `Visual Studio Code`.
 
 Applicatio is deployed on [Bitbuket Pages](https://mvnrepo.bitbucket.io)
 
+[uptimerobot](https://uptimerobot.com/dashboard#)
+
 ### Books 
 
 The best book about angular is the book *Angular Ninja*.
