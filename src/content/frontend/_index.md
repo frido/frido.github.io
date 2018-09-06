@@ -22,13 +22,13 @@ My favourite editor for `Typescript` is ~~`Atom`~~ `Visual Studio Code`.
 
 ### Quality
 
+[gtmetrix](https://gtmetrix.com/reports/mvnrepo.bitbucket.io/Bj0bHlvy)
+
 ### Documentation 
 
 ### Deployment 
 
 Applicatio is deployed on [Bitbuket Pages](https://mvnrepo.bitbucket.io)
-
-### Maitenance
 
 ### Books 
 
