@@ -1,5 +1,0 @@
-baseURL= "https://frido.github.io/"
-languageCode = "en-us"
-title = "mvnRepo"
-theme = "kraiklyn"
-publishDir = ".."

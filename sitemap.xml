@@ -1,50 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://frido.github.io/about/</loc>
-    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program1/</loc>
   </url>
   
   <url>
-    <loc>https://frido.github.io/indexer/</loc>
-    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program2/</loc>
   </url>
   
   <url>
-    <loc>https://frido.github.io/backend/</loc>
-    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program3/</loc>
   </url>
   
   <url>
-    <loc>https://frido.github.io/frontend/</loc>
-    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program4/</loc>
   </url>
   
   <url>
-    <loc>https://frido.github.io/overview/</loc>
-    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program5/</loc>
   </url>
   
   <url>
-    <loc>https://frido.github.io/this/</loc>
-    <lastmod>2018-01-28T22:01:36+01:00</lastmod>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program6/</loc>
   </url>
   
   <url>
-    <loc>https://frido.github.io/categories/</loc>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program7/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program9/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/program11/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/categories/</loc>
+    <lastmod>2020-06-06T20:53:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/</loc>
+    <lastmod>2020-06-06T20:53:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/categories/projekt/</loc>
+    <lastmod>2020-06-06T20:53:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/blogs/</loc>
+    <lastmod>2020-06-06T20:53:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/blogs/vybudovanie-denn%C3%A9ho-stacion%C3%A1ru-pre-seniorov-na-vavilovovej-ul/</loc>
+    <lastmod>2020-06-06T20:53:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/blogs/rekon%C5%A1trukcia-a-vybavenie-odborn%C3%BDch-u%C4%8Debn%C3%AD/</loc>
+    <lastmod>2020-06-06T20:23:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/blogs/vybudovanie-cyklotrasy/</loc>
+    <lastmod>2020-06-06T19:57:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/blogs/modern%C3%A1-prezent%C3%A1cia-pamiatok-a-pam%C3%A4tihodnost%C3%AD-m%C4%8D/</loc>
+    <lastmod>2020-06-06T19:33:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2019/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://frido.github.io/tags/</loc>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2020/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://frido.github.io/</loc>
+    <loc>https://frido.github.io/investicny-program-petrzalky/projects/2019/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/projects/2020/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/projects/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/grant/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/budget/2019/program1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://frido.github.io/investicny-program-petrzalky/grant/grant-2020/</loc>
   </url>
   
 </urlset>
