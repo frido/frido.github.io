@@ -4,96 +4,138 @@
   
   <url>
     <loc>/budget/2020/program1/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program2/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program3/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program4/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program5/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program6/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program7/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program8/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program9/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program10/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2020/program11/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
     <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/projekt/</loc>
     <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/</loc>
     <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/%C5%A1portovo-rekrea%C4%8Dn%C3%BD-are%C3%A1l-pri-%C4%8Dov/</loc>
     <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/vybudovanie-denn%C3%A9ho-stacion%C3%A1ru-pre-seniorov-na-vavilovovej-ul/</loc>
     <lastmod>2020-06-06T20:53:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/rekon%C5%A1trukcia-a-vybavenie-odborn%C3%BDch-u%C4%8Debn%C3%AD/</loc>
     <lastmod>2020-06-06T20:23:04+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/vybudovanie-cyklotrasy/</loc>
     <lastmod>2020-06-06T19:57:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/modern%C3%A1-prezent%C3%A1cia-pamiatok-a-pam%C3%A4tihodnost%C3%AD-m%C4%8D/</loc>
     <lastmod>2020-06-06T19:33:17+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/roz%C5%A1%C3%ADrenie-kamerov%C3%A9ho-syst%C3%A9mu/</loc>
     <lastmod>2020-06-05T15:03:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -103,6 +145,8 @@
   
   <url>
     <loc>/budget/2020/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -127,18 +171,26 @@
   
   <url>
     <loc>/grant/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/budget/2019/program1/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/grant/grant-2020/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
