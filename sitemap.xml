@@ -70,27 +70,41 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <lastmod>2020-06-17T21:14:21+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-14T06:26:50+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/projekt/</loc>
-    <lastmod>2020-06-14T06:26:50+02:00</lastmod>
+    <lastmod>2020-06-17T21:14:21+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogs/</loc>
+    <lastmod>2020-06-17T21:14:21+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%C5%A1t%C3%BAdia/</loc>
+    <lastmod>2020-06-17T21:14:21+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/blogs/studia-najomneho-byvania/</loc>
+    <lastmod>2020-06-17T21:14:21+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/projekt/</loc>
     <lastmod>2020-06-14T06:26:50+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
