@@ -15,13 +15,13 @@ body {
 section {
     header {
         h1 {
-            font-weight: 900;
+            // font-weight: 900;
         }
     }
     &.vertical {
-        & > article:not(:last-child) {
+        article:not(:last-child) {
             --bs-gutter-x: 1.5rem;
-            margin-bottom: var(--bs-gutter-x);
+            margin-top: var(--bs-gutter-x);
         }
     }
 }
@@ -44,6 +44,13 @@ figure {
 
 a {
     text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
 }
 
 .container {
@@ -61,6 +68,13 @@ div.button {
     }
 }
 
+// article a section>article rozdelit by bolo jasne co je zobrazene v liste articlov a co je samostatny articel
+// potom mozem nastavit article shadow len na article v zozname (section)
+
+section article {
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05), 0 3px 10px 0 rgba(0,0,0,0.05);
+}
+
 img.preview {
     max-height: 200px;
 }
@@ -70,11 +84,24 @@ img.preview {
     @extend .card-body;
     border: 0;
 
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+    // header {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: flex-start;
+    // }
+}
+
+.logo {
+    h1 {
+        font-size: 3.0rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-weight: 900 !important;
     }
+}
+
+.pt-1 {
+    padding-top: 1rem;
 }
 
 .flex-wrap {
@@ -151,51 +178,78 @@ img.preview {
     width: 50%;
 }
 
-.xxx {
+// .box-shadow {
+//     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05), 0 3px 10px 0 rgba(0,0,0,0.05);
+// }
+
+.palleteC {
+    margin-top: 1rem;
+}
+
+.timetable {
+    padding-bottom: 2rem;
+    .timeline {
+        padding: 0.3rem;
+        margin: 0.3rem;
+    }
+    
+}
+
+.timeline {
     border-left: solid 10px $timetable-border;
     // border-top: solid 2px $timetable-border;
-    padding: 0;
-    margin: 10px;
-    margin-left: 0;
-    background-image: linear-gradient(to right bottom, rgba(238, 187, 195, 0.05), rgba(238, 187, 195, 0));
-}
-
-.xxx.success {
-    border-left: solid 10px green;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0), rgba(0, 255, 0, 0.1));
+    // padding: 0;
+    // margin-top: 2rem;
+    // margin-left: 0;
+    // background-image: linear-gradient(to left top, rgba($timetable-border, 0) 50%, rgba($timetable-border, 0.1));
+    // box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05), 0 3px 10px 0 rgba(0,0,0,0.05);
+    // padding-left: 1rem;
+    // padding-right: 1rem;
 
     .description {
-        padding-left: 1rem;
-        color: green;
+        font-weight: 700;
+    }
+
+    .subheader {
+        font-size: 1.1rem;
+        // font-weight: 600;
+        padding-bottom: 1rem;
+    }
+
+    h3 {
+        font-weight: 600;
     }
 }
 
-.xxx.inwork {
-    border-left: solid 10px orange;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0), rgba(255, 166, 0, 0.1));
-    
-    .description {
-        padding-left: 1rem;
-        color: orange;
-    }
-}
 
-.xxx > .header {
-    padding: 0.5rem 1rem;
+
+.timeline .header {
     display: flex;
     justify-content: space-between;
 
 }
 
-.xxx .date {
+.timeline .date {
     font-size: 1rem;
 }
 
-.xxx .dateExpected {
+.timeline .dateExpected {
     font-style: italic;
 }
 
-.xxx > .xxx {
-    margin-left: 10px;
-    background-image: linear-gradient(to right bottom, rgba(238, 187, 195, 0), rgba(238, 187, 195, 0));
+.timeline .timeline-sub {
+    .header {
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+.timeline .timeline-wrap-sub {
+    font-size: 1rem;
+    margin-left: 1rem;
+    // padding-top: 0rem;
+    // padding-bottom: 1rem;
+    // padding-left: 1rem;
 }
