@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "timetable.scss"
+        "../../_site/css/timetable.scss"
     ],
     "names": [],
     "file": "timetable.css"
