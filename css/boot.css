@@ -11202,6 +11202,8 @@ img.preview {
   border-radius: 0.25rem;
 }
 
+.gallery,
+.content,
 .schedule,
 .updated,
 .budget,
@@ -11312,6 +11314,6 @@ img.preview {
 
 .timeline .timeline-wrap-sub {
   font-size: 1rem;
-  margin-left: 1rem;
+  padding-left: 2rem;
 }
 /*# sourceMappingURL=boot.css.map */
