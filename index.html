@@ -35,7 +35,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     
-    <link rel="stylesheet" href="/css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/css/boot.css">
 
     <script src="js/index.js"></script>
@@ -51,23 +50,43 @@
   <body>
     
 
-    <header class="paletteA d-flex flex-column flex-md-row align-items-center justify-content-between px-md-4 border-bottom shadow-sm logo">
-      <img src="img/logo-s.png"></h1>
-    <a href="/">
-      <h1 class="my-0 font-weight-normal logo-text">Projekty v Petržalke</h1>
-    </a>
-    <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 nav-item nav-item-active" href="/">Home</a>
-        <a class="p-2 nav-item" href="/projects/">Projekty</a>
-        <a class="p-2 nav-item" href="/casova_os/">Časová os</a>
-        <a class="p-2 nav-item" href="/grants/">Granty</a>
-        <a class="p-2 nav-item" href="/investicny_plan/">Inv. Plán</a>
-        <a class="p-2 nav-item" href="/ihriska/">Ihriská</a>
-    </nav>
-  </header>
+    <header class="row paletteA px-md-4 border-bottom shadow-sm logo">
+      <div class="col-md-1">
+        <img src="img/logo-m.png">
+      </div>
+      <div class="col-md-11">
+        <div class="row">
+          <a href="/">
+            <h1 class="my-0 font-weight-normal logo-text">Projekty v Petržalke</h1>
+          </a>
+        </div>
+        <div class="row">
+          <nav class="row">
+              <div class="col-md-2">
+              <a class=" p-2 nav-item nav-item-active" href="/">Home</a>
+              </div>
+              <div class="col-md-2">
+              <a class=" p-2 nav-item" href="/projects/">Projekty</a>
+              </div>
+              <div class="col-md-2">
+              <a class=" p-2 nav-item" href="/casova_os/">Časová os</a>
+              </div>
+              <div class="col-md-2">
+              <a class=" p-2 nav-item" href="/grants/">Granty</a>
+              </div>
+              <div class="col-md-2">
+              <a class=" p-2 nav-item" href="/investicny_plan/">Inv. Plán</a>
+              </div>
+              <div class="col-md-2">
+              <a class=" p-2 nav-item" href="/ihriska/">Ihriská</a>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-  <main class="tmpl-home">
-    <div class="paletteA">
+    <main class="tmpl-home">
+      <div class="paletteA">
   <section class="container vertical">
     <header>
       <h1 class="container-title">Developerské projekty</h1>
@@ -78,7 +97,7 @@
           <div class="col-md-10">
             <div class="header">
               <header class="title">
-                <div class="subheader">Územné konanie</div>
+                <div class="subheader">Uzemne konanie</div>
                 <h3>
                   <a href="/posts/polyfunkcny_objekt_tematinska/">
                     Polyfunkčný objekt Tematínska
@@ -109,8 +128,6 @@
               <div class="col-md-2 text-right">
                 <span class="date">
                   
-                    <span class="dateReal">17.11.2020</span>
-                  
                 </span>
               </div>
 
@@ -134,8 +151,6 @@
 
               <div class="col-md-2 text-right">
                 <span class="date">
-                  
-                    <span class="dateReal">27.10.2020</span>
                   
                 </span>
               </div>
@@ -161,8 +176,6 @@
               <div class="col-md-2 text-right">
                 <span class="date">
                   
-                    <span class="dateReal">27.08.2020</span>
-                  
                 </span>
               </div>
 
@@ -176,12 +189,12 @@
 
       </article>
     
-      <article class="article timeline inwork">
+      <article class="article timeline error">
         <div class="row">
           <div class="col-md-10">
             <div class="header">
               <header class="title">
-                <div class="subheader">Investičný zámer</div>
+                <div class="subheader">Uzemne konanie</div>
                 <h3>
                   <a href="/posts/habern_au/">
                     Bytový dom Habern Au
@@ -191,7 +204,7 @@
             </div>
           </div>
           <div class="col-md-2 text-right">
-            <span class="description">prebieha</span>
+            <span class="description">zastavené</span>
           </div>
         </div>
 
@@ -211,8 +224,6 @@
 
               <div class="col-md-2 text-right">
                 <span class="date">
-                  
-                    <span class="dateReal">10.11.2020</span>
                   
                 </span>
               </div>
@@ -238,13 +249,59 @@
               <div class="col-md-2 text-right">
                 <span class="date">
                   
-                    <span class="dateReal">26.05.2020</span>
-                  
                 </span>
               </div>
 
               <div class="col-md-2 text-right success">
                 <span class="description">žiada prepracovanie</span>
+              </div>
+
+            </div>
+          
+            <div class="row">
+              <div class="col-md-8">
+                <div class="timeline-sub error">
+                  <div class="header">
+                    
+                      <a href="https://www.petrzalka.sk/wp-content/uploads/2015/08/Rozhodnutie_Ovsiste.pdf" target="blank">
+                        <span class="title">Rozhodnutie mestskej časti</span><img class="source" src="/img/external-link.svg" ></a>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 text-right">
+                <span class="date">
+                  
+                </span>
+              </div>
+
+              <div class="col-md-2 text-right error">
+                <span class="description">zastavené</span>
+              </div>
+
+            </div>
+          
+            <div class="row">
+              <div class="col-md-8">
+                <div class="timeline-sub error">
+                  <div class="header">
+                    
+                      <a href="https://zverejnovanie.bratislava.sk/assets/File.ashx?id_org=700026&amp;id_dokumenty=31041" target="blank">
+                        <span class="title">Záväzné stanovisko hlavného mesta</span><img class="source" src="/img/external-link.svg" ></a>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 text-right">
+                <span class="date">
+                  
+                </span>
+              </div>
+
+              <div class="col-md-2 text-right error">
+                <span class="description">nesúhlasí</span>
               </div>
 
             </div>
@@ -289,8 +346,6 @@
               <div class="col-md-2 text-right">
                 <span class="date">
                   
-                    <span class="dateReal">29.09.2020</span>
-                  
                 </span>
               </div>
 
@@ -309,7 +364,7 @@
           <div class="col-md-10">
             <div class="header">
               <header class="title">
-                <div class="subheader">Investičný zámer</div>
+                <div class="subheader">Uzemne konanie</div>
                 <h3>
                   <a href="/posts/skladovo_prevadzkovy_areal_dekter/">
                     Skladovo-prevádzkový areál - DEKTER, s.r.o.
@@ -340,8 +395,6 @@
               <div class="col-md-2 text-right">
                 <span class="date">
                   
-                    <span class="dateReal">29.09.2020</span>
-                  
                 </span>
               </div>
 
@@ -360,7 +413,7 @@
           <div class="col-md-10">
             <div class="header">
               <header class="title">
-                <div class="subheader">Investičný zámer</div>
+                <div class="subheader">Uzemne konanie</div>
                 <h3>
                   <a href="/posts/najomne_byty_muchovo_namestie/">
                     Nájomné byty, Muchovo námestie
@@ -391,8 +444,6 @@
               <div class="col-md-2 text-right">
                 <span class="date">
                   
-                    <span class="dateReal">29.09.2020</span>
-                  
                 </span>
               </div>
 
@@ -412,18 +463,244 @@
   </div>
 </div>
 
-
 <div class="paletteC">
   <section class="container vertical">
     <header>
-      <h1 class="container-title">Investičný plán</h1>
+      <h1 class="container-title">Investičný plán 2021</h1>
     </header>
     <div class="">
+      
+      
+      
+        <article class="article budget inwork">
+  <div class="row">
+    <div class="col-md-9">
+      <header>
+        <h3>
+          <b>Rekonštrukcie ZŠ a MŠ</b>
+        </h3>
+      </header>
+    </div>
+    <div class="col-md-3 text-right">
+                rozpočet <span style="margin-left: 0.5rem" class="amount">1 676 980€</span>
+    </div>
+  </div>
+
+  
+
+  
+    <div class="row">
+      <div class="col-md-6">
+        
+      </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+    Prenesené predchádzajúcich období
+    
+    <div class="row budget-parent-box">
+      <div class="col-md-9">
+        <strong>Rekonštrukcia školkských zariadení</strong> - <small>2020</small>
+      </div>
+      <div class="col-md-3 text-right">
+      výdavky <span class="amount" style="margin-left: 0.5rem">454 520,07€</span>
+      </div>
+      <div class="col-md-12">
+        realizuje sa
+      </div>
+    </div>
+
+  
+
+</article>
+      
+        <article class="article budget inwork">
+  <div class="row">
+    <div class="col-md-9">
+      <header>
+        <h3>
+          <b>Nákup budov ZSE</b>
+        </h3>
+      </header>
+    </div>
+    <div class="col-md-3 text-right">
+                rozpočet <span style="margin-left: 0.5rem" class="amount">1 350 000€</span>
+    </div>
+  </div>
+
+  
+
+  
+    <div class="row">
+      <div class="col-md-6">
+        
+      </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+</article>
+      
+        <article class="article budget inwork">
+  <div class="row">
+    <div class="col-md-9">
+      <header>
+        <h3>
+          <b>Zvýšenie kapacít MŠ</b>
+        </h3>
+      </header>
+    </div>
+    <div class="col-md-3 text-right">
+                rozpočet <span style="margin-left: 0.5rem" class="amount">891 074€</span>
+    </div>
+  </div>
+
+  
+
+  
+    <div class="row">
+      <div class="col-md-6">
+        
+      </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+    Prenesené predchádzajúcich období
+    
+    <div class="row budget-parent-box">
+      <div class="col-md-9">
+        <strong>Rekonštrukcia školkských zariadení</strong> - <small>2020</small>
+      </div>
+      <div class="col-md-3 text-right">
+      výdavky <span class="amount" style="margin-left: 0.5rem">454 520,07€</span>
+      </div>
+      <div class="col-md-12">
+        realizuje sa
+      </div>
+    </div>
+
+  
+
+</article>
+      
+        <article class="article budget inwork">
+  <div class="row">
+    <div class="col-md-9">
+      <header>
+        <h3>
+          <b>Nákup strojov a zariadení - podľa potrieb referátu</b>
+        </h3>
+      </header>
+    </div>
+    <div class="col-md-3 text-right">
+                rozpočet <span style="margin-left: 0.5rem" class="amount">365 000€</span>
+    </div>
+  </div>
+
+  
+
+  
+    <div class="row">
+      <div class="col-md-6">
+        
+      </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+    Prenesené predchádzajúcich období
+    
+    <div class="row budget-parent-box">
+      <div class="col-md-9">
+        <strong>Nákup vozidiel a plošiny (žacích strojov s príslušenstvom)</strong> - <small>2020</small>
+      </div>
+      <div class="col-md-3 text-right">
+      výdavky <span class="amount" style="margin-left: 0.5rem">113 075,99€</span>
+      </div>
+      <div class="col-md-12">
+        
+      </div>
+    </div>
+
+  
+
+</article>
+      
+        <article class="article budget inwork">
+  <div class="row">
+    <div class="col-md-9">
+      <header>
+        <h3>
+          <b>Nová bežecká dráha a multifinkčné ihrisko na ZŠ Lachova</b>
+        </h3>
+      </header>
+    </div>
+    <div class="col-md-3 text-right">
+                rozpočet <span style="margin-left: 0.5rem" class="amount">215 000€</span>
+    </div>
+  </div>
+
+  
+
+  
+    <div class="row">
+      <div class="col-md-6">
+        
+      </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+    Prenesené predchádzajúcich období
+    
+    <div class="row budget-parent-box">
+      <div class="col-md-9">
+        <strong>Revitalizácia športového areálu,  multifunkčného ihriska - I. fáza</strong> - <small>2020</small>
+      </div>
+      <div class="col-md-3 text-right">
+      výdavky <span class="amount" style="margin-left: 0.5rem">0€</span>
+      </div>
+      <div class="col-md-12">
+        Realizovať sa bude projektová dokumentácia na multifunkčné ihrisko a dráhu. Prebieha príprava súťaže.
+      </div>
+    </div>
+
+  
+
+</article>
       
     </div>
   </section>
   <div class="button">
-    <a href="investicny_plan/2020">Viac</a>
+    <a href="investicny_plan/2021">Viac</a>
   </div>
 </div>
 
@@ -442,7 +719,7 @@
       <h2>FC Petržalka</h2>
     </header>
     <p>
-      <span class="amount">23 306,73€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
       
@@ -456,7 +733,7 @@
       <h2>Gymnastické centrum (Slávia UK)</h2>
     </header>
     <p>
-      <span class="amount">17 122,48€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
       
@@ -470,7 +747,7 @@
       <h2>Školský športový klub B.S.C. Bratislava</h2>
     </header>
     <p>
-      <span class="amount">13 340,78€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
       
@@ -484,7 +761,7 @@
       <h2>Športový klub polície Bratislava, o.z. hádzanársky oddiel</h2>
     </header>
     <p>
-      <span class="amount">9 374,50€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
       
@@ -511,10 +788,10 @@
       <h2>OZ Múzeum Petržalského opevnenia</h2>
     </header>
     <p>
-      <span class="amount">4 500€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
-      Petržalka pre bunkre, bunkre pre Petržalku
+      
     </p>
   </article>
 </div> 
@@ -525,10 +802,10 @@
       <h2>OZ Petržalčanka</h2>
     </header>
     <p>
-      <span class="amount">4 314€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
-      S piesňou starneme pomalšie
+      
     </p>
   </article>
 </div> 
@@ -539,10 +816,10 @@
       <h2>DEPAUL SLOVENSKO n.o.</h2>
     </header>
     <p>
-      <span class="amount">4 203€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
-      Strava pre ľudí bez domova - prvý krok k integrácii
+      
     </p>
   </article>
 </div> 
@@ -553,10 +830,10 @@
       <h2>Asociácia pre mládež vedu a techniku</h2>
     </header>
     <p>
-      <span class="amount">4 131€</span>
+      <span class="amount">NaN€</span>
     </p>
     <p>
-      Festival vedy a techniky AMAVET 2020
+      
     </p>
   </article>
 </div> 
@@ -568,15 +845,15 @@
     <a href="grants">Viac</a>
   </div>
 </div>
-  </main>
+    </main>
 
-  <footer class="paletteA">
-    <div class="container text-center">
-      <small>Copyright © 2020 Peter Fridrich</small>
-      <a href="https://www.facebook.com/petrzalka.info">
-        <i class="fab fa-facebook-square"></i>petrzalka.info</a>
-    </div>
-  </footer>
+    <footer class="paletteA">
+      <div class="container text-center">
+        <small>Copyright © 2020 Peter Fridrich</small>
+        <a href="https://www.facebook.com/petrzalka.info">
+          <i class="fab fa-facebook-square"></i>petrzalka.info</a>
+      </div>
+    </footer>
 
-</body>
+  </body>
 </html>
