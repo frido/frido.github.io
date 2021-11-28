@@ -2901,6 +2901,7 @@ figure img {
 
 .gallery {
   display: flex;
+  margin-top: 1.5rem;
 }
 
 .muted {
